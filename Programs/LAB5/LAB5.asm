@@ -90,7 +90,7 @@ NOTEQUAL:
       
       MOV DL, LEN1
       ADD DL, 30H
-      MOV AH, 09H
+      MOV AH, 02H
       INT 21H
       
       LEA DX, MSG6
